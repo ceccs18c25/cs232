@@ -1,0 +1,134 @@
+CEC CS 18 c25
+Irene Maria Zachariah
+
+--------------------------------
+#1: Aim/task
+t(1)linux commands
+---------------------------------
+Command/Shell script/Program name
+
+---------------------------------
+
+Input: (If relevant)
+a.txt
+b.txt
+ 
+
+
+---------------
+
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+Output:
+      work file:work.txt
+      report file:report.txt
+
+
+-------------------
+Remarks if any:
+
+
+
+Input:ls
+Output:work.txt
+
+Input:ls -l
+Output:total 0
+-rw-rw-r-- 1 s4c1 s4c1 0 Feb 11 22:12 work.txt
+
+Input:ls -lt
+Output:total 0
+-rw-rw-r-- 1 s4c1 s4c1 0 Feb 11 22:12 work.txt
+
+Input:ls -ltr
+Output:total 0
+-rw-rw-r-- 1 s4c1 s4c1 0 Feb 11 22:12 work.txt
+
+Input:cat > a.txt
+Output:^C
+
+Input: cat a.txt
+Output:
+       35
+25
+5
+15
+55
+
+Input: sort -n a.txt
+Output:5
+15
+25
+35
+55
+
+Input: cat > b.txt
+Output:^C
+
+
+Input: grep -c 53 b.txt
+Output:1
+
+Input:grep -c 13 b.txt
+Output:2
+
+Input: grep -w 13 b.txt
+Output:13
+13
+
+Input: cut -b 1,2 a.txt
+Output:su
+mo
+tu
+we
+th
+fr
+sa
+
+Input: cut -b 1,2,3 a.txt
+Output:sun
+mon
+tue
+wed
+thu
+fri
+sat
+
+Input:grep -r 13 b.txt
+Output:13
+13
+
+Input:cut -c -3 a.txt
+Output:sun
+mon
+tue
+wed
+thu
+fri
+sat
+
+Input:awk '{s+=$1} END {print s}' a.txt
+Output:79
+
+Input: who
+Output:s4c1     tty7         2016-02-11 21:58 (:0)
+
+Input: whoami
+Output:s4c1
+
+
+
+
+
+
+-------------------------------------
+-------------------------------------
+#2:
+
+#3:
+
+#4:
+
+#5:
+
+

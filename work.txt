@@ -1,0 +1,82 @@
+Script started on Thursday 11 February 2016 10:12:18 PM IST
+]0;s4c1@lab2-Veriton-Series: ~/ceccs18c25/cs232/3101[01;32ms4c1@lab2-Veriton-Series[00m:[01;34m~/ceccs18c25/cs232/3101[00m$ ls
+work.txt
+]0;s4c1@lab2-Veriton-Series: ~/ceccs18c25/cs232/3101[01;32ms4c1@lab2-Veriton-Series[00m:[01;34m~/ceccs18c25/cs232/3101[00m$ ls -l
+total 0
+-rw-rw-r-- 1 s4c1 s4c1 0 Feb 11 22:12 work.txt
+]0;s4c1@lab2-Veriton-Series: ~/ceccs18c25/cs232/3101[01;32ms4c1@lab2-Veriton-Series[00m:[01;34m~/ceccs18c25/cs232/3101[00m$ ls -lt
+total 0
+-rw-rw-r-- 1 s4c1 s4c1 0 Feb 11 22:12 work.txt
+]0;s4c1@lab2-Veriton-Series: ~/ceccs18c25/cs232/3101[01;32ms4c1@lab2-Veriton-Series[00m:[01;34m~/ceccs18c25/cs232/3101[00m$ ls -ltr
+total 0
+-rw-rw-r-- 1 s4c1 s4c1 0 Feb 11 22:12 work.txt
+]0;s4c1@lab2-Veriton-Series: ~/ceccs18c25/cs232/3101[01;32ms4c1@lab2-Veriton-Series[00m:[01;34m~/ceccs18c25/cs232/3101[00m$ alias ll='ls -[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcat > a.txt
+^C
+]0;s4c1@lab2-Veriton-Series: ~/ceccs18c25/cs232/3101[01;32ms4c1@lab2-Veriton-Series[00m:[01;34m~/ceccs18c25/cs232/3101[00m$ cat a.txt
+35
+25
+5
+15
+55
+]0;s4c1@lab2-Veriton-Series: ~/ceccs18c25/cs232/3101[01;32ms4c1@lab2-Veriton-Series[00m:[01;34m~/ceccs18c25/cs232/3101[00m$ sort a.txt
+15
+25
+35
+5
+55
+]0;s4c1@lab2-Veriton-Series: ~/ceccs18c25/cs232/3101[01;32ms4c1@lab2-Veriton-Series[00m:[01;34m~/ceccs18c25/cs232/3101[00m$ sort -n a.txt
+5
+15
+25
+35
+55
+]0;s4c1@lab2-Veriton-Series: ~/ceccs18c25/cs232/3101[01;32ms4c1@lab2-Veriton-Series[00m:[01;34m~/ceccs18c25/cs232/3101[00m$ cat > a[Kb.txt
+^C
+]0;s4c1@lab2-Veriton-Series: ~/ceccs18c25/cs232/3101[01;32ms4c1@lab2-Veriton-Series[00m:[01;34m~/ceccs18c25/cs232/3101[00m$ grep -c 53 b.txt
+1
+]0;s4c1@lab2-Veriton-Series: ~/ceccs18c25/cs232/3101[01;32ms4c1@lab2-Veriton-Series[00m:[01;34m~/ceccs18c25/cs232/3101[00m$ grep -c 13 b.txt
+2
+]0;s4c1@lab2-Veriton-Series: ~/ceccs18c25/cs232/3101[01;32ms4c1@lab2-Veriton-Series[00m:[01;34m~/ceccs18c25/cs232/3101[00m$ grep -ww[K 53[K[K13 b.txt
+[01;31m[K13[m[K
+[01;31m[K13[m[K
+]0;s4c1@lab2-Veriton-Series: ~/ceccs18c25/cs232/3101[01;32ms4c1@lab2-Veriton-Series[00m:[01;34m~/ceccs18c25/cs232/3101[00m$ cut -b 1,2 a.txt
+su
+mo
+tu
+we
+th
+fr
+sa
+]0;s4c1@lab2-Veriton-Series: ~/ceccs18c25/cs232/3101[01;32ms4c1@lab2-Veriton-Series[00m:[01;34m~/ceccs18c25/cs232/3101[00m$ cut -b 1,2,3 a.txt
+sun
+mon
+tue
+wed
+thu
+fri
+sat
+]0;s4c1@lab2-Veriton-Series: ~/ceccs18c25/cs232/3101[01;32ms4c1@lab2-Veriton-Series[00m:[01;34m~/ceccs18c25/cs232/3101[00m$ cut -b 1,2,3 a.txt[2P a.txtgrep -w 13 b.txtc[C[C[C[C[C[C[C[C[C5[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcat > b.txtsort -n a.txt[3Pa.txt[1Pca[C[C[C[C[C[C[C> a.txt[4Pls -ltr[K[Ktrcat > a.txt[2Pa.txt[1@sor[C[C[C[C[C[C[C-n a.txt[2Pcat > b.txt[Kgrep -c 13 b.txtw[C[C[C[C[C[C[C[C[Ccut -b 1,2 a.txt,3 a.txt[Kgrep -r 13 b.txt
+[01;31m[K13[m[K
+[01;31m[K13[m[K
+]0;s4c1@lab2-Veriton-Series: ~/ceccs18c25/cs232/3101[01;32ms4c1@lab2-Veriton-Series[00m:[01;34m~/ceccs18c25/cs232/3101[00m$ cut -c -3 a.txt
+sun
+mon
+tue
+wed
+thu
+fri
+sat
+]0;s4c1@lab2-Veriton-Series: ~/ceccs18c25/cs232/3101[01;32ms4c1@lab2-Veriton-Series[00m:[01;34m~/ceccs18c25/cs232/3101[00m$ awk'{s+=$1}END END[C[C[C {print s}' a.t 
+xt
+awk{s+=$1} END {print s}: command not found
+]0;s4c1@lab2-Veriton-Series: ~/ceccs18c25/cs232/3101[01;32ms4c1@lab2-Veriton-Series[00m:[01;34m~/ceccs18c25/cs232/3101[00m$ awk '{s+=$1} END {print s}' a. 
+txt
+79
+]0;s4c1@lab2-Veriton-Series: ~/ceccs18c25/cs232/3101[01;32ms4c1@lab2-Veriton-Series[00m:[01;34m~/ceccs18c25/cs232/3101[00m$ who
+s4c1     tty7         2016-02-11 21:58 (:0)
+]0;s4c1@lab2-Veriton-Series: ~/ceccs18c25/cs232/3101[01;32ms4c1@lab2-Veriton-Series[00m:[01;34m~/ceccs18c25/cs232/3101[00m$ whoami
+s4c1
+]0;s4c1@lab2-Veriton-Series: ~/ceccs18c25/cs232/3101[01;32ms4c1@lab2-Veriton-Series[00m:[01;34m~/ceccs18c25/cs232/3101[00m$ exit
+exit
+
+Script done on Friday 31 January 2020 10:40:17 AM IST
