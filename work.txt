@@ -1,82 +1,63 @@
-Script started on Thursday 11 February 2016 10:12:18 PM IST
-]0;s4c1@lab2-Veriton-Series: ~/ceccs18c25/cs232/3101[01;32ms4c1@lab2-Veriton-Series[00m:[01;34m~/ceccs18c25/cs232/3101[00m$ ls
-work.txt
-]0;s4c1@lab2-Veriton-Series: ~/ceccs18c25/cs232/3101[01;32ms4c1@lab2-Veriton-Series[00m:[01;34m~/ceccs18c25/cs232/3101[00m$ ls -l
-total 0
--rw-rw-r-- 1 s4c1 s4c1 0 Feb 11 22:12 work.txt
-]0;s4c1@lab2-Veriton-Series: ~/ceccs18c25/cs232/3101[01;32ms4c1@lab2-Veriton-Series[00m:[01;34m~/ceccs18c25/cs232/3101[00m$ ls -lt
-total 0
--rw-rw-r-- 1 s4c1 s4c1 0 Feb 11 22:12 work.txt
-]0;s4c1@lab2-Veriton-Series: ~/ceccs18c25/cs232/3101[01;32ms4c1@lab2-Veriton-Series[00m:[01;34m~/ceccs18c25/cs232/3101[00m$ ls -ltr
-total 0
--rw-rw-r-- 1 s4c1 s4c1 0 Feb 11 22:12 work.txt
-]0;s4c1@lab2-Veriton-Series: ~/ceccs18c25/cs232/3101[01;32ms4c1@lab2-Veriton-Series[00m:[01;34m~/ceccs18c25/cs232/3101[00m$ alias ll='ls -[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcat > a.txt
+Script started on Friday 07 February 2020 09:59:17 AM IST
+]0;s4c1@lab2-Veriton-Series: ~/ceccs18c25/cs232/0702[01;32ms4c1@lab2-Veriton-Series[00m:[01;34m~/ceccs18c25/cs232/0702[00m$ if [Kconfig -a
+enp0s25   Link encap:Ethernet  HWaddr 10:78:d2:e0:a8:00  
+          inet addr:192.168.0.83  Bcast:192.168.0.255  Mask:255.255.255.0
+          inet6 addr: fe80::b56:272f:6b7c:a52d/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:55278 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:5313 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:14797275 (14.7 MB)  TX bytes:533021 (533.0 KB)
+          Interrupt:20 Memory:fbbc0000-fbbe0000 
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:1152 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:1152 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:78648 (78.6 KB)  TX bytes:78648 (78.6 KB)
+
+]0;s4c1@lab2-Veriton-Series: ~/ceccs18c25/cs232/0702[01;32ms4c1@lab2-Veriton-Series[00m:[01;34m~/ceccs18c25/cs232/0702[00m$ ifconfig eth0 192.168.0.2
+SIOCSIFADDR: Operation not permitted
+eth0: ERROR while getting interface flags: No such device
+]0;s4c1@lab2-Veriton-Series: ~/ceccs18c25/cs232/0702[01;32ms4c1@lab2-Veriton-Series[00m:[01;34m~/ceccs18c25/cs232/0702[00m$ route
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+link-local      *               255.255.0.0     U     1000   0        0 enp0s25
+192.168.0.0     *               255.255.255.0   U     100    0        0 enp0s25
+]0;s4c1@lab2-Veriton-Series: ~/ceccs18c25/cs232/0702[01;32ms4c1@lab2-Veriton-Series[00m:[01;34m~/ceccs18c25/cs232/0702[00m$ route -n
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+169.254.0.0     0.0.0.0         255.255.0.0     U     1000   0        0 enp0s25
+192.168.0.0     0.0.0.0         255.255.255.0   U     100    0        0 enp0s25
+]0;s4c1@lab2-Veriton-Series: ~/ceccs18c25/cs232/0702[01;32ms4c1@lab2-Veriton-Series[00m:[01;34m~/ceccs18c25/cs232/0702[00m$ route add default gw 192[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kping [K[K[K[K[Kroute add default ge[Kw 192.168.0 .2
+SIOCADDRT: Operation not permitted
+]0;s4c1@lab2-Veriton-Series: ~/ceccs18c25/cs232/0702[01;32ms4c1@lab2-Veriton-Series[00m:[01;34m~/ceccs18c25/cs232/0702[00m$ ping
+Usage: ping [-aAbBdDfhLnOqrRUvV] [-c count] [-i interval] [-I interface]
+            [-m mark] [-M pmtudisc_option] [-l preload] [-p pattern] [-Q tos]
+            [-s packetsize] [-S sndbuf] [-t ttl] [-T timestamp_option]
+            [-w deadline] [-W timeout] [hop1 ...] destination
+]0;s4c1@lab2-Veriton-Series: ~/ceccs18c25/cs232/0702[01;32ms4c1@lab2-Veriton-Series[00m:[01;34m~/ceccs18c25/cs232/0702[00m$ ping 192.168.0.2
+PING 192.168.0.2 (192.168.0.2) 56(84) bytes of data.
+64 bytes from 192.168.0.2: icmp_seq=1 ttl=64 time=1.13 ms
+64 bytes from 192.168.0.2: icmp_seq=2 ttl=64 time=0.244 ms
+64 bytes from 192.168.0.2: icmp_seq=3 ttl=64 time=0.613 ms
+64 bytes from 192.168.0.2: icmp_seq=4 ttl=64 time=0.678 ms
+64 bytes from 192.168.0.2: icmp_seq=5 ttl=64 time=0.650 ms
 ^C
-]0;s4c1@lab2-Veriton-Series: ~/ceccs18c25/cs232/3101[01;32ms4c1@lab2-Veriton-Series[00m:[01;34m~/ceccs18c25/cs232/3101[00m$ cat a.txt
-35
-25
-5
-15
-55
-]0;s4c1@lab2-Veriton-Series: ~/ceccs18c25/cs232/3101[01;32ms4c1@lab2-Veriton-Series[00m:[01;34m~/ceccs18c25/cs232/3101[00m$ sort a.txt
-15
-25
-35
-5
-55
-]0;s4c1@lab2-Veriton-Series: ~/ceccs18c25/cs232/3101[01;32ms4c1@lab2-Veriton-Series[00m:[01;34m~/ceccs18c25/cs232/3101[00m$ sort -n a.txt
-5
-15
-25
-35
-55
-]0;s4c1@lab2-Veriton-Series: ~/ceccs18c25/cs232/3101[01;32ms4c1@lab2-Veriton-Series[00m:[01;34m~/ceccs18c25/cs232/3101[00m$ cat > a[Kb.txt
-^C
-]0;s4c1@lab2-Veriton-Series: ~/ceccs18c25/cs232/3101[01;32ms4c1@lab2-Veriton-Series[00m:[01;34m~/ceccs18c25/cs232/3101[00m$ grep -c 53 b.txt
-1
-]0;s4c1@lab2-Veriton-Series: ~/ceccs18c25/cs232/3101[01;32ms4c1@lab2-Veriton-Series[00m:[01;34m~/ceccs18c25/cs232/3101[00m$ grep -c 13 b.txt
-2
-]0;s4c1@lab2-Veriton-Series: ~/ceccs18c25/cs232/3101[01;32ms4c1@lab2-Veriton-Series[00m:[01;34m~/ceccs18c25/cs232/3101[00m$ grep -ww[K 53[K[K13 b.txt
-[01;31m[K13[m[K
-[01;31m[K13[m[K
-]0;s4c1@lab2-Veriton-Series: ~/ceccs18c25/cs232/3101[01;32ms4c1@lab2-Veriton-Series[00m:[01;34m~/ceccs18c25/cs232/3101[00m$ cut -b 1,2 a.txt
-su
-mo
-tu
-we
-th
-fr
-sa
-]0;s4c1@lab2-Veriton-Series: ~/ceccs18c25/cs232/3101[01;32ms4c1@lab2-Veriton-Series[00m:[01;34m~/ceccs18c25/cs232/3101[00m$ cut -b 1,2,3 a.txt
-sun
-mon
-tue
-wed
-thu
-fri
-sat
-]0;s4c1@lab2-Veriton-Series: ~/ceccs18c25/cs232/3101[01;32ms4c1@lab2-Veriton-Series[00m:[01;34m~/ceccs18c25/cs232/3101[00m$ cut -b 1,2,3 a.txt[2P a.txtgrep -w 13 b.txtc[C[C[C[C[C[C[C[C[C5[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcat > b.txtsort -n a.txt[3Pa.txt[1Pca[C[C[C[C[C[C[C> a.txt[4Pls -ltr[K[Ktrcat > a.txt[2Pa.txt[1@sor[C[C[C[C[C[C[C-n a.txt[2Pcat > b.txt[Kgrep -c 13 b.txtw[C[C[C[C[C[C[C[C[Ccut -b 1,2 a.txt,3 a.txt[Kgrep -r 13 b.txt
-[01;31m[K13[m[K
-[01;31m[K13[m[K
-]0;s4c1@lab2-Veriton-Series: ~/ceccs18c25/cs232/3101[01;32ms4c1@lab2-Veriton-Series[00m:[01;34m~/ceccs18c25/cs232/3101[00m$ cut -c -3 a.txt
-sun
-mon
-tue
-wed
-thu
-fri
-sat
-]0;s4c1@lab2-Veriton-Series: ~/ceccs18c25/cs232/3101[01;32ms4c1@lab2-Veriton-Series[00m:[01;34m~/ceccs18c25/cs232/3101[00m$ awk'{s+=$1}END END[C[C[C {print s}' a.t 
-xt
-awk{s+=$1} END {print s}: command not found
-]0;s4c1@lab2-Veriton-Series: ~/ceccs18c25/cs232/3101[01;32ms4c1@lab2-Veriton-Series[00m:[01;34m~/ceccs18c25/cs232/3101[00m$ awk '{s+=$1} END {print s}' a. 
-txt
-79
-]0;s4c1@lab2-Veriton-Series: ~/ceccs18c25/cs232/3101[01;32ms4c1@lab2-Veriton-Series[00m:[01;34m~/ceccs18c25/cs232/3101[00m$ who
-s4c1     tty7         2016-02-11 21:58 (:0)
-]0;s4c1@lab2-Veriton-Series: ~/ceccs18c25/cs232/3101[01;32ms4c1@lab2-Veriton-Series[00m:[01;34m~/ceccs18c25/cs232/3101[00m$ whoami
-s4c1
-]0;s4c1@lab2-Veriton-Series: ~/ceccs18c25/cs232/3101[01;32ms4c1@lab2-Veriton-Series[00m:[01;34m~/ceccs18c25/cs232/3101[00m$ exit
+--- 192.168.0.2 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4060ms
+rtt min/avg/max/mdev = 0.244/0.663/1.134/0.284 ms
+]0;s4c1@lab2-Veriton-Series: ~/ceccs18c25/cs232/0702[01;32ms4c1@lab2-Veriton-Series[00m:[01;34m~/ceccs18c25/cs232/0702[00m$ cat /etc/resolv.conf
+# Dynamic resolv.conf(5) file for glibc resolver(3) generated by resolvconf(8)
+#     DO NOT EDIT THIS FILE BY HAND -- YOUR CHANGES WILL BE OVERWRITTEN
+nameserver 127.0.1.1
+search example.org
+]0;s4c1@lab2-Veriton-Series: ~/ceccs18c25/cs232/0702[01;32ms4c1@lab2-Veriton-Series[00m:[01;34m~/ceccs18c25/cs232/0702[00m$ eth0 "nameserver 1.1.1.1" >>re solv.conf[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C "nameserver 1.1.1.1" >>reso[1Plv.conf[A]0;s4c1@lab2-Veriton-Series: ~/ceccs18c25/cs232/0702[01;32ms4c1@lab2-Veriton-Series[00m:[01;34m~/ceccs18c25/cs232/0702[00m$ [C[C[C "nameserver 1.1.1.1" >>resol[1Pv.conf[A]0;s4c1@lab2-Veriton-Series: ~/ceccs18c25/cs232/0702[01;32ms4c1@lab2-Veriton-Series[00m:[01;34m~/ceccs18c25/cs232/0702[00m$ [C[C "nameserver 1.1.1.1" >>resolv[1P.conf[A]0;s4c1@lab2-Veriton-Series: ~/ceccs18c25/cs232/0702[01;32ms4c1@lab2-Veriton-Series[00m:[01;34m~/ceccs18c25/cs232/0702[00m$ [Cc "nameserver 1.1.1.1" >>resolv.conf[A]0;s4c1@lab2-Veriton-Series: ~/ceccs18c25/cs232/0702[01;32ms4c1@lab2-Veriton-Series[00m:[01;34m~/ceccs18c25/cs232/0702[00m$ [C[Ch "nameserver 1.1.1.1" >>resolv.conf[A]0;s4c1@lab2-Veriton-Series: ~/ceccs18c25/cs232/0702[01;32ms4c1@lab2-Veriton-Series[00m:[01;34m~/ceccs18c25/cs232/0702[00m$ [C[C[Co "nameserver 1.1.1.1" >>resolv.conf[A]0;s4c1@lab2-Veriton-Series: ~/ceccs18c25/cs232/0702[01;32ms4c1@lab2-Veriton-Series[00m:[01;34m~/ceccs18c25/cs232/0702[00m$ [C[C[C[C
+
+]0;s4c1@lab2-Veriton-Series: ~/ceccs18c25/cs232/0702[01;32ms4c1@lab2-Veriton-Series[00m:[01;34m~/ceccs18c25/cs232/0702[00m$ exit
 exit
 
-Script done on Friday 31 January 2020 10:40:17 AM IST
+Script done on Friday 07 February 2020 10:44:01 AM IST
