@@ -91,7 +91,49 @@ Input: echo "nameserver 1.1.1.1" >>resolv.conf
 -------------------------------------
 -------------------------------------
 Remarks if any:
-#2:
+
+
+
+#2: Ftp usage (t5)
+
+---------------------------------
+Command/Shell script/Program name
+---------------------------------
+	
+	sftp cs18c25@192.168.0.30
+	put report.txt
+	lcd ..
+	lpwd
+	get work.txt
+	rm work.txt
+	quit
+
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+
+	# sftp cs18c25@192.168.0.30, connect to host 192.168.0.30 via sftp
+
+	# put report.txt, upload report.txt
+
+	# lcd .., change local directory 
+
+	# lpwd, show local present working directory
+
+	# get work.txt, copy work.txt from host to local system
+
+	# rm work.txt, remove work.txt from host
+
+	# quit, quit current ftp session
+
+
+-------------------
+Remarks if any:
+		
+
+-------------------------------------
+-------------------------------------
+
+
 
 #3:
 
