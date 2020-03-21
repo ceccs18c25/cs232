@@ -1,0 +1,23 @@
+Script started on 2020-03-21 17:17:23+0530
+]0;godi@mypc: ~/ceccs18c25/cs232/2103[01;32mgodi@mypc[00m:[01;34m~/ceccs18c25/cs232/2103[00m$ exitssh cs18c14@14.139.189.217[1@ftp[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Psh[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[K[Kgedit prime.pl
+]0;godi@mypc: ~/ceccs18c25/cs232/2103[01;32mgodi@mypc[00m:[01;34m~/ceccs18c25/cs232/2103[00m$ perl prime.pl
+Enter a number:25
+ 25 is not a prime number
+
+]0;godi@mypc: ~/ceccs18c25/cs232/2103[01;32mgodi@mypc[00m:[01;34m~/ceccs18c25/cs232/2103[00m$ gedit fact.pl
+]0;godi@mypc: ~/ceccs18c25/cs232/2103[01;32mgodi@mypc[00m:[01;34m~/ceccs18c25/cs232/2103[00m$ gedit fact.pl[1P fact.pl[1P fact.pl[1P fact.pl[1P fact.pl[1P fact.plp fact.ple fact.plr fact.pll fact.pl
+enter limit 7
+factorial is 5040
+]0;godi@mypc: ~/ceccs18c25/cs232/2103[01;32mgodi@mypc[00m:[01;34m~/ceccs18c25/cs232/2103[00m$ gedit sum_of_numbers.pl
+]0;godi@mypc: ~/ceccs18c25/cs232/2103[01;32mgodi@mypc[00m:[01;34m~/ceccs18c25/cs232/2103[00m$ perl [K[K[K[K[Kgedit sum_of_numbers.pl[1P[1P[1P[C[1P sum_of_numbers.pl[1P sum_of_numbers.plp sum_of_numbers.ple sum_of_numbers.plr sum_of_numbers.pll sum_of_numbers.pl
+Enter the numbers
+5
+100
+Sum = 105
+]0;godi@mypc: ~/ceccs18c25/cs232/2103[01;32mgodi@mypc[00m:[01;34m~/ceccs18c25/cs232/2103[00m$ gedit report.txt
+^C
+]0;godi@mypc: ~/ceccs18c25/cs232/2103[01;32mgodi@mypc[00m:[01;34m~/ceccs18c25/cs232/2103[00m$ gedit report.txt
+]0;godi@mypc: ~/ceccs18c25/cs232/2103[01;32mgodi@mypc[00m:[01;34m~/ceccs18c25/cs232/2103[00m$ exit
+exit
+
+Script done on 2020-03-21 17:31:27+0530

@@ -1,0 +1,47 @@
+CEC CS 18 C25   21-03-20
+IRENE MARIA ZACHARIAH
+--------------------------------
+#1:t8(2) Perl
+---------------------------------
+Program Name:
+----------------------------
+
+1.To check whether a number is prime or not.
+
+2.To find the factorial of a number.
+
+3.To find the sum of two numbers.
+
+
+
+------------------------------------
+
+#Output
+-------------------------
+1. 	Enter a number:25
+ 	25 is not a prime number
+
+
+
+2. 	enter limit 7
+	factorial is 5040
+
+
+3.	Enter the numbers
+	5
+	100
+	Sum = 105
+
+
+
+-------------------------------------
+
+Remarks if any:
+	
+	
+
+-------------------------------------
+-------------------------------------
+
+------------------------------------
+
