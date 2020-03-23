@@ -1,0 +1,32 @@
+
+CEC CS 18 C25 23-03-2020
+IRENE MARIA ZACHARIAH
+
+
+--------------------------------
+#1: Linux Installation (t6)
+---------------------------------
+
+Command/Shell script/Program name
+---------------------------------
+
+	# Ubuntu installation using CD
+	Ubuntu 18.04 LTS
+	
+
+--------------------------------
+Output: 
+
+	# Screenshots 1-5 (.jpg) shows various steps of installation	
+
+	# Ubuntu 18.04 LTS is installed alongside with windows10
+
+-------------------
+Remarks if any:
+
+
+-------------------
+-------------------
+-------------------
+-------------------
+-------------------
