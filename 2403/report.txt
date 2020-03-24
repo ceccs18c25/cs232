@@ -1,0 +1,45 @@
+CEC CS 18 C25
+IRENE MARIA ZACHARIAH
+24 03 2020
+
+--------------------------------
+#1: Aim/task
+
+
+      Task 8.1
+---------------------------------
+Command/Shell script/Program name
+
+      Package Management (t8)(1)
+
+---------------------------------
+
+Input: 
+---------------
+The various steps are shown below:
+  
+        >To update the local package - sudo apt-get update
+
+        >To install apache2  -  sudo apt-get install apache2
+       
+        >To remove apache2   -  sudo apt autoremove
+  
+        >To install links2   -  sudo apt-get install links2
+ 
+        >To remove links2    -  sudo apt remove links2
+
+        >To list the all installed packages  -  sudo apt list > process.txt
+
+
+          
+--------------------------------
+Output:
+
+
+      >>List of all installed packages are  -  process.txt 
+
+
+
+
+--------------------
+
