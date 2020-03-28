@@ -1,0 +1,92 @@
+CEC CS 18 C25
+IRENE MARIA ZACHARIAH
+
+28 03 2020
+
+--------------------------------
+#1: Aim/task
+
+   Kernel Compilation t8(4)
+---------------------------------
+
+
+Command/Shell script/Program name
+
+---------------------------------
+
+Input: 
+---------------
+
+>>To download the latest stable kernel
+             
+            wget https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.5.9.tar.xz
+
+
+>>To extract the source code
+
+            unxz -v linux-5.5.9.tar.xz
+
+>>To download the PGP signature for Kernel
+
+            wget https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.5.9.tar.sign
+
+>>To verify the kernel tartball with GnuPG
+
+            gpg --verify linux-5.5.9.tar.sign
+
+
+>>To extract the tartball
+
+
+            tar xvf linux-5.5.9.tar
+
+            cd linux-5.5.9
+
+>>To create the configuration file
+
+            cp -v /boot/config-$(uname -r) .config
+   
+
+>>To install development tools required to compile the kernel
+
+
+            sudo apt-get install build-essential libncurses-dev bison flex libssl-dev libelf-dev
+
+>>To compile the kernel
+
+
+            make -j $(nproc)
+
+
+
+
+
+
+
+
+
+         
+
+--------------------------------
+Output: 
+
+       Screenshot.png contains the screenshot of the files that compiled
+
+
+  >>Compiled kernel is at /linux-5.5.9
+        
+
+
+-------------------
+Remarks if any:
+
+
+    The files are too large so Kernel files couldn't be uploaded
+
+
+-------------------------------------
+-------------------------------------
+
+
+
+
