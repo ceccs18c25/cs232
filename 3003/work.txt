@@ -1,0 +1,127 @@
+Script started on 2020-03-30 11:28:17+0530
+]0;irene@irene-HP-Laptop-15-da0xxx: ~/ceccs18c25/cs232/3003[01;32mirene@irene-HP-Laptop-15-da0xxx[00m:[01;34m~/ceccs18c25/cs232/3003[00m$ sudo apt-get install vsfftpd
+[sudo] password for irene: 
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+vsftpd is already the newest version (3.0.3-9build1).
+0 upgraded, 0 newly installed, 0 to remove and 49 not upgraded.
+]0;irene@irene-HP-Laptop-15-da0xxx: ~/ceccs18c25/cs232/3003[01;32mirene@irene-HP-Laptop-15-da0xxx[00m:[01;34m~/ceccs18c25/cs232/3003[00m$ sudo gedit /etc/vsftpd.cconf
+
+** (gedit:4355): [1;33mWARNING[0m **: [34m11:33:43.587[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:4355): [1;33mWARNING[0m **: [34m11:33:43.587[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:4355): [1;33mWARNING[0m **: [34m11:33:44.875[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:4355): [1;33mWARNING[0m **: [34m11:33:44.875[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:4355): [1;33mWARNING[0m **: [34m11:35:10.606[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:4355): [1;33mWARNING[0m **: [34m11:35:10.606[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:4355): [1;33mWARNING[0m **: [34m11:35:13.529[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:4355): [1;33mWARNING[0m **: [34m11:35:13.530[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:4355): [1;33mWARNING[0m **: [34m11:35:15.093[0m: Set document metadata failed: Setting attribute metadata::gedit-position not supported
+]0;irene@irene-HP-Laptop-15-da0xxx: ~/ceccs18c25/cs232/3003[01;32mirene@irene-HP-Laptop-15-da0xxx[00m:[01;34m~/ceccs18c25/cs232/3003[00m$ ftp localhost
+Connected to localhost.
+220 (vsFTPd 3.0.3)
+Name (localhost:irene): lo  irene
+331 Please specify the password.
+Password:
+230 Login successful.
+Remote system type is UNIX.
+Using binary mode to transfer files.
+ftp>  sudo apt-get install apache2[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kexit
+221 Goodbye.
+]0;irene@irene-HP-Laptop-15-da0xxx: ~/ceccs18c25/cs232/3003[01;32mirene@irene-HP-Laptop-15-da0xxx[00m:[01;34m~/ceccs18c25/cs232/3003[00m$  sudo apt-get install appache2
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following additional packages will be installed:
+  apache2-bin apache2-data apache2-utils libapr1 libaprutil1
+  libaprutil1-dbd-sqlite3 libaprutil1-ldap liblua5.2-0
+Suggested packages:
+  apache2-doc apache2-suexec-pristine | apache2-suexec-custom
+The following NEW packages will be installed:
+  apache2 apache2-bin apache2-data apache2-utils libapr1 libaprutil1
+  libaprutil1-dbd-sqlite3 libaprutil1-ldap liblua5.2-0
+0 upgraded, 9 newly installed, 0 to remove and 49 not upgraded.
+Need to get 0 B/1,712 kB of archives.
+After this operation, 6,921 kB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+Selecting previously unselected package libapr1:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 169959 files and directories currently installed.)
+Preparing to unpack .../0-libapr1_1.6.3-2_amd64.deb ...
+Unpacking libapr1:amd64 (1.6.3-2) ...
+Selecting previously unselected package libaprutil1:amd64.
+Preparing to unpack .../1-libaprutil1_1.6.1-2_amd64.deb ...
+Unpacking libaprutil1:amd64 (1.6.1-2) ...
+Selecting previously unselected package libaprutil1-dbd-sqlite3:amd64.
+Preparing to unpack .../2-libaprutil1-dbd-sqlite3_1.6.1-2_amd64.deb ...
+Unpacking libaprutil1-dbd-sqlite3:amd64 (1.6.1-2) ...
+Selecting previously unselected package libaprutil1-ldap:amd64.
+Preparing to unpack .../3-libaprutil1-ldap_1.6.1-2_amd64.deb ...
+Unpacking libaprutil1-ldap:amd64 (1.6.1-2) ...
+Selecting previously unselected package liblua5.2-0:amd64.
+Preparing to unpack .../4-liblua5.2-0_5.2.4-1.1build1_amd64.deb ...
+Unpacking liblua5.2-0:amd64 (5.2.4-1.1build1) ...
+Selecting previously unselected package apache2-bin.
+Preparing to unpack .../5-apache2-bin_2.4.29-1ubuntu4.13_amd64.deb ...
+Unpacking apache2-bin (2.4.29-1ubuntu4.13) ...
+Selecting previously unselected package apache2-utils.
+Preparing to unpack .../6-apache2-utils_2.4.29-1ubuntu4.13_amd64.deb ...
+Unpacking apache2-utils (2.4.29-1ubuntu4.13) ...
+Selecting previously unselected package apache2-data.
+Preparing to unpack .../7-apache2-data_2.4.29-1ubuntu4.13_all.deb ...
+Unpacking apache2-data (2.4.29-1ubuntu4.13) ...
+Selecting previously unselected package apache2.
+Preparing to unpack .../8-apache2_2.4.29-1ubuntu4.13_amd64.deb ...
+Unpacking apache2 (2.4.29-1ubuntu4.13) ...
+Setting up libapr1:amd64 (1.6.3-2) ...
+Setting up apache2-data (2.4.29-1ubuntu4.13) ...
+Setting up libaprutil1:amd64 (1.6.1-2) ...
+Setting up liblua5.2-0:amd64 (5.2.4-1.1build1) ...
+Setting up libaprutil1-ldap:amd64 (1.6.1-2) ...
+Setting up libaprutil1-dbd-sqlite3:amd64 (1.6.1-2) ...
+Setting up apache2-utils (2.4.29-1ubuntu4.13) ...
+Setting up apache2-bin (2.4.29-1ubuntu4.13) ...
+Setting up apache2 (2.4.29-1ubuntu4.13) ...
+Processing triggers for libc-bin (2.27-3ubuntu1) ...
+Processing triggers for systemd (237-3ubuntu10.38) ...
+Processing triggers for man-db (2.8.3-2ubuntu0.1) ...
+Processing triggers for ufw (0.36-0ubuntu0.18.04.1) ...
+Processing triggers for ureadahead (0.100.0-21) ...
+]0;irene@irene-HP-Laptop-15-da0xxx: ~/ceccs18c25/cs232/3003[01;32mirene@irene-HP-Laptop-15-da0xxx[00m:[01;34m~/ceccs18c25/cs232/3003[00m$ sudo gedit /var/www/htmll/index.html
+
+** (gedit:5821): [1;33mWARNING[0m **: [34m11:52:00.937[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:5821): [1;33mWARNING[0m **: [34m11:52:00.937[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:5821): [1;33mWARNING[0m **: [34m11:52:01.738[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:5821): [1;33mWARNING[0m **: [34m11:52:01.738[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:5821): [1;33mWARNING[0m **: [34m11:52:09.351[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:5821): [1;33mWARNING[0m **: [34m11:52:09.352[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:5821): [1;33mWARNING[0m **: [34m11:52:10.751[0m: Set document metadata failed: Setting attribute metadata::gedit-position not supported
+]0;irene@irene-HP-Laptop-15-da0xxx: ~/ceccs18c25/cs232/3003[01;32mirene@irene-HP-Laptop-15-da0xxx[00m:[01;34m~/ceccs18c25/cs232/3003[00m$ g[Ksudo gedit /var/www/htmll/index.html
+[sudo] password for irene: 
+
+** (gedit:6025): [1;33mWARNING[0m **: [34m11:58:20.460[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:6025): [1;33mWARNING[0m **: [34m11:58:20.461[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:6025): [1;33mWARNING[0m **: [34m11:58:21.263[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:6025): [1;33mWARNING[0m **: [34m11:58:21.263[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:6025): [1;33mWARNING[0m **: [34m11:58:22.492[0m: Set document metadata failed: Setting attribute metadata::gedit-position not supported
+]0;irene@irene-HP-Laptop-15-da0xxx: ~/ceccs18c25/cs232/3003[01;32mirene@irene-HP-Laptop-15-da0xxx[00m:[01;34m~/ceccs18c25/cs232/3003[00m$ [K]0;irene@irene-HP-Laptop-15-da0xxx: ~/ceccs18c25/cs232/3003[01;32mirene@irene-HP-Laptop-15-da0xxx[00m:[01;34m~/ceccs18c25/cs232/3003[00m$ exit
+exit
+
+Script done on 2020-03-30 12:06:16+0530

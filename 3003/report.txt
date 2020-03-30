@@ -1,0 +1,52 @@
+CEC CS 18 C25
+IRENE MARIA ZACHARIAH
+30-03-2020
+
+
+--------------------------------
+#1: Aim/task
+
+ t7:  Setting up ftp and http server
+
+---------------------------------
+Command/Shell script/Program name
+
+>>To install ftp server
+
+      sudo apt-get install vsftpd
+
+>>To edit ftp server configuration
+
+      sudo gedit /etc/vsftpd.conf
+
+>>To connect ftp on local server
+
+      ftp localhost
+
+>>To install apache2
+
+      sudo apt-get install apache2
+
+>>To edit appache2
+
+      sudo gedit /var/www/html/index.html
+
+
+---------------------------------
+Output
+
+>>ftp server is available at 
+
+     192.168.1.104
+
+>>Apache server 
+
+     screenshot.png  is attached
+
+
+--------------------------------------
+Remarks if any:
+
+
+-------------------------------------
+-------------------------------------
