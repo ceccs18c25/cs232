@@ -1,0 +1,89 @@
+CEC CS 18 C25
+IRENE MARIA ZACHARIAH
+01-04-2020
+
+
+--------------------------------
+#1: Aim/task
+
+ t8(3)  Further tasks
+        LAMP stack
+---------------------------------
+Command/Shell script/Program name
+
+>>update list
+
+        sudo apt update
+
+
+>>To install apache2
+
+        sudo apt-get install apache2
+
+>>To start apache2
+
+        sudo service apache2 start
+
+
+>>To install my-sql
+
+        sudo apt-get install MySQL-server
+
+
+>>To start MySQLserver
+
+        sudo service mysql start 
+
+
+>>PHP installation
+
+        sudo apt install php libapache2-mod-php php-mysql
+
+
+>>Creating PHP file info
+
+        nano info.php
+
+
+>>Creating PHP file index
+
+        nano index.php
+
+
+>>PHP version viewed through
+
+        http://localhost/info.php or 192.168.1.104/info.php
+
+
+>>Test PHP Processing on Web Server
+
+        sudo nano /var/www/html/info.php
+
+
+---------------------------------
+
+Input: 
+---------------
+>>php file
+
+ info.php
+ index.php
+
+--------------------------------
+Output: 
+
+#info.php 
+  Screenshot info.png
+
+#index.php 
+  Screenshot index.png
+
+
+-------------------
+Remarks if any:
+
+
+
+
+
+-------------------------------------
