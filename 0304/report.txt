@@ -1,0 +1,45 @@
+CEC CS 18 C25
+03-04-2020
+Irene Maria Zachariah
+
+--------------------------------
+#1: Shell script S6
+
+
+    To implement a menu driven calculator
+
+
+---------------------------------
+
+Command/Shell script/Program name
+---------------------------------
+
+>>Shell script used
+
+          calculator.sh
+
+
+Input:
+---------------
+
+	Two numbers are 35 and 7
+
+--------------------------------
+Output: 
+
+
+	The various operations are done and the corresponding output is obtained.
+
+	Screenshot 1.png and Screenshot 2.png  both screenshots shows the various operations done with the 2 numbers.
+
+
+-------------------
+Remarks if any:
+
+
+
+
+
+-------------------------------------
+
+
