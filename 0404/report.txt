@@ -1,0 +1,86 @@
+CEC CS 18 C25
+
+04-04-2020
+
+IRENE MARIA ZACHARIAH
+
+--------------------------------
+#1: Aim/task    #S4
+
+
+Shell Programming : Write shell script to show various system configuration like
+>> Currently logged user and his login name
+>> Your current shell
+>> Your home directory
+>> Your operating system type
+>> Your current path setting
+>> Your current working directory
+>> Number of users currently logged in
+
+---------------------------------
+Command/Shell script/Program name
+
+**Shell script -  myscript.sh
+
+
+**Run script - bash myscript.sh
+
+
+---------------------------------
+
+
+--------------------------------
+Output: or Input & Output 
+
+>>myscript1.png is attached to show various system configuration 
+
+
+
+
+-------------------
+-------------------------------------
+-------------------------------------
+#2:Aim/task  #S5
+
+Write shell script to show various system configurations like
+>> your OS and version, release number, kernel version
+>> all available shells
+>> computer CPU information like processor type, speed etc
+>> memory information
+>> hard disk information like size of hard-disk, cache memory, model etc
+>> File system (Mounted)
+---------------------------------
+Command/Shell script/Program name
+
+
+**Shell script - myscript1.sh
+
+**Run script  - bash myscript1.sh
+
+---------------------------------
+
+
+--------------------------------
+Output: or Input & Output 
+
+
+>> your OS and version, release number, kernel version
+>> all available shells
+>> computer CPU information like processor type, speed etc
+>> memory information
+>> hard disk information like size of hard-disk, cache memory, model etc
+>> File system (Mounted)
+
+
+-------------------
+Remarks if any:
+
+
+
+
+
+-------------------------------------
+-------------------------------------
+
+
+

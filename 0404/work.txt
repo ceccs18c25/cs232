@@ -1,0 +1,241 @@
+Script started on 2020-04-04 12:25:32+0530
+]0;irene@irene-HP-Laptop-15-da0xxx: ~/ceccs18c25/cs232/0404[01;32mirene@irene-HP-Laptop-15-da0xxx[00m:[01;34m~/ceccs18c25/cs232/0404[00m$ nano myscript.sh
+[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;35H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 2.9.3                     myscript.sh                                [1;79H(B[m[23d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Linter (B[0;7m^_(B[m Go To Line[22d[3d[39;49m(B[m[?12l[?25h[?25l[1;71H(B[0;7mModified(B[m[3de[?12l[?25h[?25lc[?12l[?25h[?25lh[?12l[?25h[?25l(B[0;1m[34mecho[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l -[?12l[?25h[?25l[32m-e[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l "[?12l[?25h[?25l[32m\[39m(B[m[?12l[?25h[?25ln[?12l[?25h[?25lC[?12l[?25h[?25lu[?12l[?25h[?25lr[?12l[?25h[?25lr[?12l[?25h[?25le[?12l[?25h[?25ln[?12l[?25h[?25lt[?12l[?25h[?25ll[?12l[?25h[?25ly[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l l[?12l[?25h[?25lo[?12l[?25h[?25lg[?12l[?25h[?25lg[?12l[?25h[?25le[22d[K[3;27H[?12l[?25h[?25ld[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l u[?12l[?25h[?25ls[?12l[?25h[?25le[?12l[?25h[?25lr[?12l[?25h[?25l-[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l [32m$[39m(B[m[?12l[?25h[?25l(B[0;1m[31m$U[39m(B[m[?12l[?25h[?25l(B[0;1m[31mS[39m(B[m[?12l[?25h[?25l(B[0;1m[31mE[39m(B[m[?12l[?25h[?25l(B[0;1m[31mR[39m(B[m[?12l[?25h[?25l(B[0;1m[31mN[39m(B[m[?12l[?25h[?25l(B[0;1m[31mA[39m(B[m[?12l[?25h[?25l(B[0;1m[31mM[39m(B[m[?12l[?25h[?25l(B[0;1m[31mE[39m(B[m[?12l[?25h[?25l[3;9H(B[0;1m[33m"\nCurrently logged user- $USERNAME"[39m(B[m[?12l[?25h[?25l[4d[?12l[?25h[?25le[?12l[?25h[?25lc[?12l[?25h[?25lh[?12l[?25h[?25l(B[0;1m[34mecho[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l -[?12l[?25h[?25l[32m-e[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l "[?12l[?25h[?25l[32m\[39m(B[m[?12l[?25h[?25ln[?12l[?25h[?25lC[?12l[?25h[?25lu[?12l[?25h[?25lr[?12l[?25h[?25lr[?12l[?25h[?25le[?12l[?25h[?25ln[?12l[?25h[?25lt[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l l[?12l[?25h[?25lo[?12l[?25h[?25lg[?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l n[?12l[?25h[?25la[?12l[?25h[?25lm[?12l[?25h[?25le[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l -[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l [32m$[39m(B[m[?12l[?25h[?25l(B[0;1m[31m$L[39m(B[m[?12l[?25h[?25l(B[0;1m[31mO[39m(B[m[?12l[?25h[?25l(B[0;1m[31mG[39m(B[m[?12l[?25h[?25l(B[0;1m[31mN[39m(B[m[?12l[?25h[?25l(B[0;1m[31mA[39m(B[m[?12l[?25h[?25l(B[0;1m[31mM[39m(B[m[?12l[?25h[?25l(B[0;1m[31mE[39m(B[m[?12l[?25h[?25l[4;9H(B[0;1m[33m"\nCurrent login name - $LOGNAME"[39m(B[m[?12l[?25h[?25l[5d[?12l[?25h[?25le[?12l[?25h[?25lc[?12l[?25h[?25lh[?12l[?25h[?25l(B[0;1m[34mecho[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l -[?12l[?25h[?25l[32m-e[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l  "[?12l[?25h[?25l[32m\[39m(B[m[?12l[?25h[?25ln[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l M[?12l[?25h[?25ly[?12l[?25h[?25l [?12l[?25h[?25l[42m [49m(B[m[K[?12l[?25h[?25l M[?12l[?25h[?25ly[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[42m [49m(B[m[K[?12l[?25h[?25l [?12l[?25h[?25lM[?12l[?25h[?25ly[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l c[?12l[?25h[?25lu[?12l[?25h[?25lr[?12l[?25h[?25lr[?12l[?25h[?25le[?12l[?25h[?25ln[?12l[?25h[?25lt[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l s[?12l[?25h[?25lh[?12l[?25h[?25le[?12l[?25h[?25ll[?12l[?25h[?25ll[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l -[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l [32m$[39m(B[m[?12l[?25h[?25l(B[0;1m[31m$S[39m(B[m[?12l[?25h[?25l(B[0;1m[31mH[39m(B[m[?12l[?25h[?25l(B[0;1m[31mE[39m(B[m[?12l[?25h[?25l(B[0;1m[31mL[39m(B[m[?12l[?25h[?25l(B[0;1m[31mL[39m(B[m[?12l[?25h[?25l[5;10H(B[0;1m[33m"\nMy current shell - $SHELL"[39m(B[m[?12l[?25h[?25l[6d[?12l[?25h[?25le[?12l[?25h[?25lc[?12l[?25h[?25lh[?12l[?25h[?25l(B[0;1m[34mecho[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l -[?12l[?25h[?25l[32m-e[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l "[?12l[?25h[?25lM[?12l[?25h[?25ly[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l h[?12l[?25h[?25lo[?12l[?25h[?25lm[?12l[?25h[?25le[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l d[?12l[?25h[?25li[?12l[?25h[?25lr[?12l[?25h[?25le[?12l[?25h[?25lc[?12l[?25h[?25lt[?12l[?25h[?25lo[?12l[?25h[?25lr[?12l[?25h[?25ly[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l -[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l [32m$[39m(B[m[?12l[?25h[?25l(B[0;1m[31m$H[39m(B[m[?12l[?25h[?25l(B[0;1m[31mO[39m(B[m[?12l[?25h[?25l(B[0;1m[31mM[39m(B[m[?12l[?25h[?25l(B[0;1m[31mE[39m(B[m[?12l[?25h[?25l[32m:[39m(B[m[?12l[?25h[?25l [?12l[?25h[?25l[6;9H(B[0;1m[33m"My home directory - $HOME"[39m(B[m[?12l[?25h[?25l[7d[?12l[?25h[?25le[?12l[?25h[?25lc[?12l[?25h[?25lh[?12l[?25h[?25l(B[0;1m[34mecho[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l -[?12l[?25h[?25l[32m-e[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l "[?12l[?25h[?25lM[?12l[?25h[?25ly[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l o[?12l[?25h[?25lp[?12l[?25h[?25le[?12l[?25h[?25lr[?12l[?25h[?25la[?12l[?25h[?25lt[?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25lg[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l s[?12l[?25h[?25ly[?12l[?25h[?25ls[?12l[?25h[?25lt[?12l[?25h[?25le[?12l[?25h[?25lm[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l t[?12l[?25h[?25ly[?12l[?25h[?25lp[?12l[?25h[?25le[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l -[?12l[?25h[?25l[7;9H(B[0;1m[33m"My operating system type -"[39m(B[m[?12l[?25h[?25l[8d[?12l[?25h[?25lu[?12l[?25h[?25ln[?12l[?25h[?25la[?12l[?25h[?25lm[?12l[?25h[?25le[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l -[?12l[?25h[?25lo[?12l[?25h[?25l[9d[?12l[?25h[?25le[?12l[?25h[?25lc[?12l[?25h[?25lh[?12l[?25h[?25l(B[0;1m[34mecho[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l -[?12l[?25h[?25l[32m-e[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l "[?12l[?25h[?25l[32m\[39m(B[m[?12l[?25h[?25ln[?12l[?25h[?25lM[?12l[?25h[?25ly[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l c[?12l[?25h[?25lu[?12l[?25h[?25lr[?12l[?25h[?25lr[?12l[?25h[?25le[?12l[?25h[?25ln[?12l[?25h[?25lt[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l p[?12l[?25h[?25la[?12l[?25h[?25lt[?12l[?25h[?25lh[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l s[?12l[?25h[?25le[?12l[?25h[?25l(B[0;1m[34mset[39m(B[m[?12l[?25h[?25lsett[?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25lg[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l -[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l [32m$[39m(B[m[?12l[?25h[?25l(B[0;1m[31m$P[39m(B[m[?12l[?25h[?25l(B[0;1m[31mA[39m(B[m[?12l[?25h[?25l(B[0;1m[31mT[39m(B[m[?12l[?25h[?25l(B[0;1m[31mH[39m(B[m[?12l[?25h[?25l[9;9H(B[0;1m[33m"\nMy current path setting - $PATH"[39m(B[m[?12l[?25h[?25l[10d[?12l[?25h[?25le[?12l[?25h[?25lc[?12l[?25h[?25lh[?12l[?25h[?25l(B[0;1m[34mecho[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l -[?12l[?25h[?25l[32m-e[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l "[?12l[?25h[?25l[32m\[39m(B[m[?12l[?25h[?25ln[?12l[?25h[?25lM[?12l[?25h[?25ly[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l c[?12l[?25h[?25lu[?12l[?25h[?25lr[?12l[?25h[?25lr[?12l[?25h[?25le[?12l[?25h[?25ln[?12l[?25h[?25lt[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l w[?12l[?25h[?25lo[?12l[?25h[?25lr[?12l[?25h[?25lk[?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25lg[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l d[?12l[?25h[?25li[?12l[?25h[?25lr[?12l[?25h[?25le[?12l[?25h[?25lc[?12l[?25h[?25lt[?12l[?25h[?25lo[?12l[?25h[?25lr[?12l[?25h[?25ly[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l -[?12l[?25h[?25l[10;9H(B[0;1m[33m"\nMy current working directory -"[39m(B[m[?12l[?25h[?25l[11d[?12l[?25h[?25lp[?12l[?25h[?25lw[?12l[?25h[?25ld[?12l[?25h[?25l[12d[?12l[?25h[?25le[?12l[?25h[?25lc[?12l[?25h[?25lh[?12l[?25h[?25l(B[0;1m[34mecho[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l -[?12l[?25h[?25l[32m-e[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l "[?12l[?25h[?25l[32m\[39m(B[m[?12l[?25h[?25ln[?12l[?25h[?25lN[?12l[?25h[?25lu[?12l[?25h[?25lm[?12l[?25h[?25lb[?12l[?25h[?25le[?12l[?25h[?25lr[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l o[?12l[?25h[?25lf[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l u[?12l[?25h[?25ls[?12l[?25h[?25le[?12l[?25h[?25lr[?12l[?25h[?25ls[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l c[?12l[?25h[?25lu[?12l[?25h[?25lr[?12l[?25h[?25lr[?12l[?25h[?25le[?12l[?25h[?25ln[?12l[?25h[?25lt[?12l[?25h[?25ll[?12l[?25h[?25ly[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l l[?12l[?25h[?25lo[?12l[?25h[?25lg[?12l[?25h[?25lg[?12l[?25h[?25le[?12l[?25h[?25ld[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l i[?12l[?25h[?25l[32min[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l -[?12l[?25h[?25l[12;9H(B[0;1m[33m"\nNumber of users currently logged in -"[39m(B[m[?12l[?25h[?25l[13d[?12l[?25h[?25lw[?12l[?25h[?25lh[?12l[?25h[?25lo[?12l[?25h[?25l[23;14H       (B[0;7mM-D(B[m DOS Format      (B[0;7mM-A(B[m Append          (B[0;7mM-B(B[m Backup File[24;2H(B[0;7mC(B[m Cancel           (B[0;7mM-M(B[m Mac Format      (B[0;7mM-P(B[m Prepend         (B[0;7m^T(B[m To Files[K[22d(B[0;7mFile Name to Write: myscript.sh                                                 [22;1H(B[m[22;32H[?12l[?25h[?25l[K[1;79H[1;71H(B[0;7m        (B[m[22;32H(B[0;7m[ Wrote 11 lines ](B[m[23;14H(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24;2H(B[0;7mX(B[m Exit      (B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Linter (B[0;7m^_(B[m Go To Line[22d[13;4H[?12l[?25h[?25l[22d[J[24;80H[?12l[?25h[24;1H[?1049l[23;0;0t[?1l>]0;irene@irene-HP-Laptop-15-da0xxx: ~/ceccs18c25/cs232/0404[01;32mirene@irene-HP-Laptop-15-da0xxx[00m:[01;34m~/ceccs18c25/cs232/0404[00m$ bash myscript [K.sh
+
+Currently logged user- irene
+
+Current login name - irene
+
+My current shell - /bin/bash
+My home directory - /home/irene
+My operating system type -
+GNU/Linux
+
+My current path setting - /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+My current working directory -
+/home/irene/ceccs18c25/cs232/0404
+
+Number of users currently logged in -
+irene    :0           2020-04-04 10:00 (:0)
+]0;irene@irene-HP-Laptop-15-da0xxx: ~/ceccs18c25/cs232/0404[01;32mirene@irene-HP-Laptop-15-da0xxx[00m:[01;34m~/ceccs18c25/cs232/0404[00m$ [K]0;irene@irene-HP-Laptop-15-da0xxx: ~/ceccs18c25/cs232/0404[01;32mirene@irene-HP-Laptop-15-da0xxx[00m:[01;34m~/ceccs18c25/cs232/0404[00m$ [K]0;irene@irene-HP-Laptop-15-da0xxx: ~/ceccs18c25/cs232/0404[01;32mirene@irene-HP-Laptop-15-da0xxx[00m:[01;34m~/ceccs18c25/cs232/0404[00m$ nano myscript1.sh
+[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;35H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 2.9.3                     myscript1.sh                               [1;79H(B[m[23d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Linter (B[0;7m^_(B[m Go To Line[22d[3d[39;49m(B[m[?12l[?25h[?25l[1;71H(B[0;7mModified(B[m[3de[?12l[?25h[?25lc[?12l[?25h[?25lh[?12l[?25h[?25l(B[0;1m[34mecho[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l -[?12l[?25h[?25l[32m-e[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l "[?12l[?25h[?25l[32m\[39m(B[m[?12l[?25h[?25ln[?12l[?25h[?25lM[?12l[?25h[?25ly[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l O[?12l[?25h[?25lS[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l a[?12l[?25h[?25ln[?12l[?25h[?25ld[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l v[?12l[?25h[?25le[?12l[?25h[?25lr[?12l[?25h[?25ls[?12l[?25h[?25li[22d[K[3;27H[?12l[?25h[?25lo[?12l[?25h[?25ln[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l ,[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l r[?12l[?25h[?25le[?12l[?25h[?25ll[?12l[?25h[?25le[?12l[?25h[?25la[?12l[?25h[?25ls[?12l[?25h[?25le[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l n[?12l[?25h[?25ly[?12l[?25h[?25l [?12l[?25h[?25lu[?12l[?25h[?25lm[?12l[?25h[?25lb[?12l[?25h[?25le[?12l[?25h[?25lr[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l -[?12l[?25h[?25l[3;9H(B[0;1m[33m"\nMy OS and version , release number -"[39m(B[m[?12l[?25h[?25l[4d[?12l[?25h[?25lc[?12l[?25h[?25la[?12l[?25h[?25l(B[0;1m[34mcat[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l /[?12l[?25h[?25le[?12l[?25h[?25lt[?12l[?25h[?25lc[?12l[?25h[?25l/[?12l[?25h[?25lo[?12l[?25h[?25ls[?12l[?25h[?25l-[?12l[?25h[?25l[32m-r[39m(B[m[?12l[?25h[?25l-re[?12l[?25h[?25ll[?12l[?25h[?25le[?12l[?25h[?25la[?12l[?25h[?25ls[?12l[?25h[?25le[?12l[?25h[?25l[5d[?12l[?25h[?25le[?12l[?25h[?25lc[?12l[?25h[?25lh[?12l[?25h[?25l(B[0;1m[34mecho[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l -[?12l[?25h[?25l[32m-e[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l "[?12l[?25h[?25l[32m\[39m(B[m[?12l[?25h[?25ln[?12l[?25h[?25lM[?12l[?25h[?25ly[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l O[?12l[?25h[?25lS[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l  K[?12l[?25h[?25l[42m  [49m(B[m[K[?12l[?25h[?25l [?12l[?25h[?25l K[?12l[?25h[?25le[?12l[?25h[?25lr[?12l[?25h[?25ln[?12l[?25h[?25le[?12l[?25h[?25ll[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l v[?12l[?25h[?25le[?12l[?25h[?25lr[?12l[?25h[?25ls[?12l[?25h[?25li[?12l[?25h[?25lo[?12l[?25h[?25ln[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l -[?12l[?25h[?25l[5;9H(B[0;1m[33m"\nMy OS Kernel version -"[39m(B[m[?12l[?25h[?25l[6d[?12l[?25h[?25lu[?12l[?25h[?25ln[?12l[?25h[?25la[?12l[?25h[?25lm[?12l[?25h[?25le[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l -[?12l[?25h[?25l[32m-r[39m(B[m[?12l[?25h[?25l[7d[?12l[?25h[?25le[?12l[?25h[?25lc[?12l[?25h[?25lh[?12l[?25h[?25l(B[0;1m[34mecho[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l -[?12l[?25h[?25l[32m-e[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l "[?12l[?25h[?25l[32m\[39m(B[m[?12l[?25h[?25ln[?12l[?25h[?25lA[?12l[?25h[?25ll[?12l[?25h[?25ll[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l a[?12l[?25h[?25lv[?12l[?25h[?25la[?12l[?25h[?25li[?12l[?25h[?25ll[?12l[?25h[?25la[?12l[?25h[?25lb[?12l[?25h[?25ll[?12l[?25h[?25le[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l s[?12l[?25h[?25lh[?12l[?25h[?25le[?12l[?25h[?25ll[?12l[?25h[?25ll[?12l[?25h[?25ls[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l -[?12l[?25h[?25l[7;9H(B[0;1m[33m"\nAll available shells -"[39m(B[m[?12l[?25h[?25l[8d[?12l[?25h[?25lc[?12l[?25h[?25la[?12l[?25h[?25l(B[0;1m[34mcat[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l /[?12l[?25h[?25le[?12l[?25h[?25lt[?12l[?25h[?25lc[?12l[?25h[?25l/[?12l[?25h[?25ls[?12l[?25h[?25lh[?12l[?25h[?25le[?12l[?25h[?25ll[?12l[?25h[?25ll[?12l[?25h[?25ls[?12l[?25h[?25l[9d[?12l[?25h[?25le[?12l[?25h[?25lc[?12l[?25h[?25lh[?12l[?25h[?25l(B[0;1m[34mecho[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l -[?12l[?25h[?25l[32m-e[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l "[?12l[?25h[?25l[32m\[39m(B[m[?12l[?25h[?25ln[?12l[?25h[?25lC[?12l[?25h[?25lp[?12l[?25h[?25lu[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l i[?12l[?25h[?25l[32min[39m(B[m[?12l[?25h[?25linf[?12l[?25h[?25lo[?12l[?25h[?25lr[?12l[?25h[?25lm[?12l[?25h[?25la[?12l[?25h[?25lt[?12l[?25h[?25li[?12l[?25h[?25lo[?12l[?25h[?25ln[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25lP information[9;14H[?12l[?25h[?25lU information[9;15H[?12l[?25h[?25l [?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25lf[?12l[?25h[?25lo[?12l[?25h[?25lr[?12l[?25h[?25lm[?12l[?25h[?25la[?12l[?25h[?25lt[?12l[?25h[?25li[?12l[?25h[?25lo[?12l[?25h[?25ln[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l -[?12l[?25h[?25l[9;9H(B[0;1m[33m"\nCPU information -"[39m(B[m[?12l[?25h[?25l[10d[?12l[?25h[?25lc[?12l[?25h[?25la[?12l[?25h[?25l(B[0;1m[34mcat[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l /[?12l[?25h[?25lp[?12l[?25h[?25lr[?12l[?25h[?25lo[?12l[?25h[?25lc[?12l[?25h[?25l/[?12l[?25h[?25lc[?12l[?25h[?25l(B[0;1m[34mcp[39m(B[m[?12l[?25h[?25lcpu[?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25lf[?12l[?25h[?25lo[?12l[?25h[?25l[11d[?12l[?25h[?25le[?12l[?25h[?25lc[?12l[?25h[?25lh[?12l[?25h[?25l(B[0;1m[34mecho[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l -[?12l[?25h[?25l[32m-e[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l "[?12l[?25h[?25l[32m\[39m(B[m[?12l[?25h[?25ln[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l [?12l[?25h[?25lM[?12l[?25h[?25le[?12l[?25h[?25lm[?12l[?25h[?25lo[?12l[?25h[?25lr[?12l[?25h[?25ly[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l i[?12l[?25h[?25l[32min[39m(B[m[?12l[?25h[?25linf[?12l[?25h[?25lo[?12l[?25h[?25lr[?12l[?25h[?25lm[?12l[?25h[?25la[?12l[?25h[?25lt[?12l[?25h[?25li[?12l[?25h[?25lo[?12l[?25h[?25ln[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l -[?12l[?25h[?25l[11;9H(B[0;1m[33m"\nMemory information -"[39m(B[m[?12l[?25h[?25l[12d[?12l[?25h[?25lf[?12l[?25h[?25lr[?12l[?25h[?25le[?12l[?25h[?25le[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l -[?12l[?25h[?25lm[?12l[?25h[?25l[13d[?12l[?25h[?25le[?12l[?25h[?25lc[?12l[?25h[?25lh[?12l[?25h[?25l(B[0;1m[34mecho[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l [32m=[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[K[?12l[?25h[?25l -[?12l[?25h[?25l[32m-e[39m(B[m[?12l[?25h[?25l"[?12l[?25h[?25l [?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l "[?12l[?25h[?25l[32m\[39m(B[m[?12l[?25h[?25ln[?12l[?25h[?25lH[?12l[?25h[?25la[?12l[?25h[?25lr[?12l[?25h[?25ld[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l d[?12l[?25h[?25li[?12l[?25h[?25ls[?12l[?25h[?25lc[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l i[?12l[?25h[?25l[32min[39m(B[m[?12l[?25h[?25linf[?12l[?25h[?25lo[?12l[?25h[?25lr[?12l[?25h[?25lm[?12l[?25h[?25la[?12l[?25h[?25lt[?12l[?25h[?25li[?12l[?25h[?25lo[?12l[?25h[?25ln[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l -[?12l[?25h[?25l[13;9H(B[0;1m[33m"\nHard disc information -"[39m(B[m[?12l[?25h[?25l[14d[?12l[?25h[?25ld[?12l[?25h[?25lf[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l -[?12l[?25h[?25lh[?12l[?25h[?25l[15d[?12l[?25h[?25le[?12l[?25h[?25lc[?12l[?25h[?25lh[?12l[?25h[?25l(B[0;1m[34mecho[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l -[?12l[?25h[?25l[32m-e[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l "[?12l[?25h[?25l[32m\[39m(B[m[?12l[?25h[?25ln[?12l[?25h[?25lF[?12l[?25h[?25li[?12l[?25h[?25ll[?12l[?25h[?25le[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l s[?12l[?25h[?25ly[?12l[?25h[?25ls[?12l[?25h[?25lt[?12l[?25h[?25le[?12l[?25h[?25lm[?12l[?25h[?25l[32m([39m(B[m[?12l[?25h[?25lM[?12l[?25h[?25lo[?12l[?25h[?25lu[?12l[?25h[?25ln[?12l[?25h[?25lt[?12l[?25h[?25le[?12l[?25h[?25ld[?12l[?25h[?25l[32m)[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l -[?12l[?25h[?25l[15;9H(B[0;1m[33m"\nFile system(Mounted) -"[39m(B[m[?12l[?25h[?25l[16d[?12l[?25h[?25lm[?12l[?25h[?25lo[?12l[?25h[?25lu[?12l[?25h[?25ln[?12l[?25h[?25lt[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[K[?12l[?25h[?25lmount [32m|[39m(B[m column -t[?12l[?25h[?25l[32m![39m(B[m[?12l[?25h[?25l [?12l[?25h[?25l[32m|[39m(B[m[?12l[?25h[?25l [?12l[?25h[?25l[23;14H       (B[0;7mM-D(B[m DOS Format      (B[0;7mM-A(B[m Append          (B[0;7mM-B(B[m Backup File[24;2H(B[0;7mC(B[m Cancel           (B[0;7mM-M(B[m Mac Format      (B[0;7mM-P(B[m Prepend         (B[0;7m^T(B[m To Files[K[22d(B[0;7mFile Name to Write: myscript1.sh                                                [22;1H(B[m[22;33H[?12l[?25h[?25l[K[1;79H[1;71H(B[0;7m        (B[m[22;32H(B[0;7m[ Wrote 14 lines ](B[m[23;14H(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24;2H(B[0;7mX(B[m Exit      (B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Linter (B[0;7m^_(B[m Go To Line[22d[16;18H[?12l[?25h[?25l[22d[J[24;80H[?12l[?25h[24;1H[?1049l[23;0;0t[?1l>]0;irene@irene-HP-Laptop-15-da0xxx: ~/ceccs18c25/cs232/0404[01;32mirene@irene-HP-Laptop-15-da0xxx[00m:[01;34m~/ceccs18c25/cs232/0404[00m$ bash myscript1.sh
+
+My OS and version , release number -
+NAME="Ubuntu"
+VERSION="18.04.4 LTS (Bionic Beaver)"
+ID=ubuntu
+ID_LIKE=debian
+PRETTY_NAME="Ubuntu 18.04.4 LTS"
+VERSION_ID="18.04"
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+VERSION_CODENAME=bionic
+UBUNTU_CODENAME=bionic
+
+My OS Kernel version -
+5.3.0-42-generic
+
+All available shells -
+# /etc/shells: valid login shells
+/bin/sh
+/bin/bash
+/bin/rbash
+/bin/dash
+
+CPU information -
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 142
+model name	: Intel(R) Core(TM) i3-7020U CPU @ 2.30GHz
+stepping	: 9
+microcode	: 0xca
+cpu MHz		: 799.710
+cache size	: 3072 KB
+physical id	: 0
+siblings	: 4
+core id		: 0
+cpu cores	: 2
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb invpcid_single pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx rdseed adx smap clflushopt intel_pt xsaveopt xsavec xgetbv1 xsaves dtherm arat pln pts hwp hwp_notify hwp_act_window hwp_epp md_clear flush_l1d
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit
+bogomips	: 4599.93
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 142
+model name	: Intel(R) Core(TM) i3-7020U CPU @ 2.30GHz
+stepping	: 9
+microcode	: 0xca
+cpu MHz		: 800.022
+cache size	: 3072 KB
+physical id	: 0
+siblings	: 4
+core id		: 1
+cpu cores	: 2
+apicid		: 2
+initial apicid	: 2
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb invpcid_single pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx rdseed adx smap clflushopt intel_pt xsaveopt xsavec xgetbv1 xsaves dtherm arat pln pts hwp hwp_notify hwp_act_window hwp_epp md_clear flush_l1d
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit
+bogomips	: 4599.93
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 2
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 142
+model name	: Intel(R) Core(TM) i3-7020U CPU @ 2.30GHz
+stepping	: 9
+microcode	: 0xca
+cpu MHz		: 798.844
+cache size	: 3072 KB
+physical id	: 0
+siblings	: 4
+core id		: 0
+cpu cores	: 2
+apicid		: 1
+initial apicid	: 1
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb invpcid_single pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx rdseed adx smap clflushopt intel_pt xsaveopt xsavec xgetbv1 xsaves dtherm arat pln pts hwp hwp_notify hwp_act_window hwp_epp md_clear flush_l1d
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit
+bogomips	: 4599.93
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 3
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 142
+model name	: Intel(R) Core(TM) i3-7020U CPU @ 2.30GHz
+stepping	: 9
+microcode	: 0xca
+cpu MHz		: 800.020
+cache size	: 3072 KB
+physical id	: 0
+siblings	: 4
+core id		: 1
+cpu cores	: 2
+apicid		: 3
+initial apicid	: 3
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb invpcid_single pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx rdseed adx smap clflushopt intel_pt xsaveopt xsavec xgetbv1 xsaves dtherm arat pln pts hwp hwp_notify hwp_act_window hwp_epp md_clear flush_l1d
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit
+bogomips	: 4599.93
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+
+Memory information -
+              total        used        free      shared  buff/cache   available
+Mem:           3847        1865         326         413        1655        1308
+Swap:          3814           0        3814
+
+Hard disc information -
+Filesystem      Size  Used Avail Use% Mounted on
+udev            1.9G     0  1.9G   0% /dev
+tmpfs           385M  2.0M  383M   1% /run
+/dev/sda3       386G   27G  340G   8% /
+tmpfs           1.9G   92M  1.8G   5% /dev/shm
+tmpfs           5.0M  4.0K  5.0M   1% /run/lock
+tmpfs           1.9G     0  1.9G   0% /sys/fs/cgroup
+/dev/loop3      3.8M  3.8M     0 100% /snap/gnome-system-monitor/135
+/dev/loop2      1.0M  1.0M     0 100% /snap/gnome-logs/93
+/dev/loop4      1.0M  1.0M     0 100% /snap/gnome-logs/81
+/dev/loop6      4.3M  4.3M     0 100% /snap/gnome-calculator/544
+/dev/loop0      4.4M  4.4M     0 100% /snap/gnome-calculator/704
+/dev/loop9       15M   15M     0 100% /snap/gnome-characters/399
+/dev/loop5       15M   15M     0 100% /snap/gnome-characters/495
+/dev/loop8       55M   55M     0 100% /snap/core18/1705
+/dev/loop10     161M  161M     0 100% /snap/gnome-3-28-1804/116
+/dev/loop7       92M   92M     0 100% /snap/core/8689
+/dev/loop1      3.8M  3.8M     0 100% /snap/gnome-system-monitor/127
+/dev/loop13      55M   55M     0 100% /snap/core18/1668
+/dev/loop14      45M   45M     0 100% /snap/gtk-common-themes/1440
+/dev/loop12      90M   90M     0 100% /snap/core/8268
+/dev/loop11      49M   49M     0 100% /snap/gtk-common-themes/1474
+tmpfs           385M   16K  385M   1% /run/user/121
+tmpfs           385M   56K  385M   1% /run/user/1000
+
+File system(Mounted) -
+sysfs                                               on  /sys                             type  sysfs            (rw,nosuid,nodev,noexec,relatime)
+proc                                                on  /proc                            type  proc             (rw,nosuid,nodev,noexec,relatime)
+udev                                                on  /dev                             type  devtmpfs         (rw,nosuid,relatime,size=1945488k,nr_inodes=486372,mode=755)
+devpts                                              on  /dev/pts                         type  devpts           (rw,nosuid,noexec,relatime,gid=5,mode=620,ptmxmode=000)
+tmpfs                                               on  /run                             type  tmpfs            (rw,nosuid,noexec,relatime,size=393968k,mode=755)
+/dev/sda3                                           on  /                                type  ext4             (rw,relatime,errors=remount-ro)
+securityfs                                          on  /sys/kernel/security             type  securityfs       (rw,nosuid,nodev,noexec,relatime)
+tmpfs                                               on  /dev/shm                         type  tmpfs            (rw,nosuid,nodev)
+tmpfs                                               on  /run/lock                        type  tmpfs            (rw,nosuid,nodev,noexec,relatime,size=5120k)
+tmpfs                                               on  /sys/fs/cgroup                   type  tmpfs            (ro,nosuid,nodev,noexec,mode=755)
+cgroup                                              on  /sys/fs/cgroup/unified           type  cgroup2          (rw,nosuid,nodev,noexec,relatime,nsdelegate)
+cgroup                                              on  /sys/fs/cgroup/systemd           type  cgroup           (rw,nosuid,nodev,noexec,relatime,xattr,name=systemd)
+pstore                                              on  /sys/fs/pstore                   type  pstore           (rw,nosuid,nodev,noexec,relatime)
+cgroup                                              on  /sys/fs/cgroup/memory            type  cgroup           (rw,nosuid,nodev,noexec,relatime,memory)
+cgroup                                              on  /sys/fs/cgroup/blkio             type  cgroup           (rw,nosuid,nodev,noexec,relatime,blkio)
+cgroup                                              on  /sys/fs/cgroup/freezer           type  cgroup           (rw,nosuid,nodev,noexec,relatime,freezer)
+cgroup                                              on  /sys/fs/cgroup/devices           type  cgroup           (rw,nosuid,nodev,noexec,relatime,devices)
+cgroup                                              on  /sys/fs/cgroup/cpu,cpuacct       type  cgroup           (rw,nosuid,nodev,noexec,relatime,cpu,cpuacct)
+cgroup                                              on  /sys/fs/cgroup/net_cls,net_prio  type  cgroup           (rw,nosuid,nodev,noexec,relatime,net_cls,net_prio)
+cgroup                                              on  /sys/fs/cgroup/rdma              type  cgroup           (rw,nosuid,nodev,noexec,relatime,rdma)
+cgroup                                              on  /sys/fs/cgroup/perf_event        type  cgroup           (rw,nosuid,nodev,noexec,relatime,perf_event)
+cgroup                                              on  /sys/fs/cgroup/pids              type  cgroup           (rw,nosuid,nodev,noexec,relatime,pids)
+cgroup                                              on  /sys/fs/cgroup/hugetlb           type  cgroup           (rw,nosuid,nodev,noexec,relatime,hugetlb)
+cgroup                                              on  /sys/fs/cgroup/cpuset            type  cgroup           (rw,nosuid,nodev,noexec,relatime,cpuset)
+systemd-1                                           on  /proc/sys/fs/binfmt_misc         type  autofs           (rw,relatime,fd=37,pgrp=1,timeout=0,minproto=5,maxproto=5,direct,pipe_ino=871)
+mqueue                                              on  /dev/mqueue                      type  mqueue           (rw,relatime)
+debugfs                                             on  /sys/kernel/debug                type  debugfs          (rw,relatime)
+hugetlbfs                                           on  /dev/hugepages                   type  hugetlbfs        (rw,relatime,pagesize=2M)
+configfs                                            on  /sys/kernel/config               type  configfs         (rw,relatime)
+fusectl                                             on  /sys/fs/fuse/connections         type  fusectl          (rw,relatime)
+/var/lib/snapd/snaps/gnome-system-monitor_135.snap  on  /snap/gnome-system-monitor/135   type  squashfs         (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/gnome-logs_93.snap             on  /snap/gnome-logs/93              type  squashfs         (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/gnome-logs_81.snap             on  /snap/gnome-logs/81              type  squashfs         (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/gnome-calculator_544.snap      on  /snap/gnome-calculator/544       type  squashfs         (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/gnome-calculator_704.snap      on  /snap/gnome-calculator/704       type  squashfs         (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/gnome-characters_399.snap      on  /snap/gnome-characters/399       type  squashfs         (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/gnome-characters_495.snap      on  /snap/gnome-characters/495       type  squashfs         (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/core18_1705.snap               on  /snap/core18/1705                type  squashfs         (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/gnome-3-28-1804_116.snap       on  /snap/gnome-3-28-1804/116        type  squashfs         (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/core_8689.snap                 on  /snap/core/8689                  type  squashfs         (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/gnome-system-monitor_127.snap  on  /snap/gnome-system-monitor/127   type  squashfs         (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/core18_1668.snap               on  /snap/core18/1668                type  squashfs         (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/gtk-common-themes_1440.snap    on  /snap/gtk-common-themes/1440     type  squashfs         (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/core_8268.snap                 on  /snap/core/8268                  type  squashfs         (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/gtk-common-themes_1474.snap    on  /snap/gtk-common-themes/1474     type  squashfs         (ro,nodev,relatime,x-gdu.hide)
+tmpfs                                               on  /run/user/121                    type  tmpfs            (rw,nosuid,nodev,relatime,size=393964k,mode=700,uid=121,gid=125)
+tmpfs                                               on  /run/user/1000                   type  tmpfs            (rw,nosuid,nodev,relatime,size=393964k,mode=700,uid=1000,gid=1000)
+gvfsd-fuse                                          on  /run/user/1000/gvfs              type  fuse.gvfsd-fuse  (rw,nosuid,nodev,relatime,user_id=1000,group_id=1000)
+]0;irene@irene-HP-Laptop-15-da0xxx: ~/ceccs18c25/cs232/0404[01;32mirene@irene-HP-Laptop-15-da0xxx[00m:[01;34m~/ceccs18c25/cs232/0404[00m$ [K]0;irene@irene-HP-Laptop-15-da0xxx: ~/ceccs18c25/cs232/0404[01;32mirene@irene-HP-Laptop-15-da0xxx[00m:[01;34m~/ceccs18c25/cs232/0404[00m$ [K]0;irene@irene-HP-Laptop-15-da0xxx: ~/ceccs18c25/cs232/0404[01;32mirene@irene-HP-Laptop-15-da0xxx[00m:[01;34m~/ceccs18c25/cs232/0404[00m$ exit
+exit
+
+Script done on 2020-04-04 12:42:26+0530
